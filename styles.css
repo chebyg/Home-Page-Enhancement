@@ -1,0 +1,38 @@
+/* Universal selector (wildcard) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class selector for box model properties */
+.box {
+    margin: 1rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Float profile image to the right */
+aside img {
+    float: right;
+    margin: 1rem;
+}
+
+/* Absolute positioning for state/country heading */
+aside h2 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+/* Style for navigation links */
+nav a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+nav a:hover {
+    color: #23527c;
+}
